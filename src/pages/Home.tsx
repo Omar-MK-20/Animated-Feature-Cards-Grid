@@ -1,8 +1,9 @@
+import CardComponent from "../components/CardComponent"
 
 function Home() {
     return (
         <>
-            
+            {/* <CardComponent/> */}
         </>
     )
 }
