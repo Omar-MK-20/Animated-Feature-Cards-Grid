@@ -20,8 +20,8 @@ function CardContainer() {
                     className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">
 
                     {
-                        Features.map((item, index) => (
-                            <CardComponent key={item.id} card={item} index={index} />
+                        Features.map((item) => (
+                            <CardComponent key={item.id} card={item} />
                         ))
                     }
                 </motion.div>

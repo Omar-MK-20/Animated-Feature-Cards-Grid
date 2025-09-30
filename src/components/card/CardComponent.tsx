@@ -3,7 +3,7 @@ import { Badge } from "../ui/badge";
 import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../ui/card";
 import type { FeatureCard } from "./cardData";
 
-function CardComponent({ card, index }: { card: FeatureCard, index: number }) {
+function CardComponent({ card }: { card: FeatureCard }) {
     
 
 
